@@ -1,0 +1,55 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa;
+}
+
+/* Navbar */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Page Container */
+.container {
+    max-width: 900px;
+}
+
+/* Headings */
+h2 {
+    margin-top: 20px;
+    color: #007bff;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* List Group */
+.list-group-item {
+    background: #ffffff;
+    border-left: 5px solid #007bff;
+    padding: 15px;
+    margin-bottom: 10px;
+    transition: 0.3s ease-in-out;
+}
+
+.list-group-item:hover {
+    background: #e9ecef;
+}
+
+/* Links */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 15px;
+    background: #343a40;
+    color: white;
+    margin-top: 30px;
+}
