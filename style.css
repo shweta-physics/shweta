@@ -1,48 +1,74 @@
 /* General Styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f8f9fa;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
 }
 
 /* Navbar */
 .navbar {
+    background-color: #0056b3;
+    padding: 12px 0;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
-/* Page Container */
+.navbar-brand {
+    font-size: 22px;
+    font-weight: bold;
+    color: #ffffff !important;
+}
+
+.navbar-nav .nav-link {
+    color: #ffffff !important;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ffdd57 !important;
+}
+
+/* Container */
 .container {
     max-width: 900px;
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
 }
 
 /* Headings */
-h2 {
-    margin-top: 20px;
-    color: #007bff;
-    text-align: center;
+h1, h2 {
+    color: #0056b3;
     font-weight: bold;
+    text-align: center;
+    margin-bottom: 15px;
 }
 
 /* List Group */
 .list-group-item {
     background: #ffffff;
-    border-left: 5px solid #007bff;
+    border-left: 5px solid #0056b3;
     padding: 15px;
     margin-bottom: 10px;
-    transition: 0.3s ease-in-out;
+    transition: 0.3s;
 }
 
 .list-group-item:hover {
-    background: #e9ecef;
+    background: #e3f2fd;
 }
 
 /* Links */
 a {
-    color: #007bff;
+    color: #0056b3;
     text-decoration: none;
+    font-weight: bold;
 }
 
 a:hover {
     text-decoration: underline;
+    color: #ff5733;
 }
 
 /* Footer */
@@ -51,5 +77,16 @@ a:hover {
     padding: 15px;
     background: #343a40;
     color: white;
+    font-size: 14px;
     margin-top: 30px;
+    border-radius: 0 0 8px 8px;
 }
+
+.footer a {
+    color: #ffdd57;
+}
+
+.footer a:hover {
+    text-decoration: underline;
+}
+
